@@ -6,7 +6,7 @@ import utils
 # my first ANN
 
 # load dataset mnist.npz
-images, labels = utils.load_dataset()
+images, labels = utils.load_mnist_dataset()
 
 # Инициализация весов
 weights_input_to_hidden = np.random.uniform(-0.5, 0.5, (20, 784))
